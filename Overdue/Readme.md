@@ -1,8 +1,8 @@
 **目录**
-
-- <a href="#xmb">`12个人的小练习任务 - 提升算法实践能力`</a>
 - <a href="#jj">`简介`</a>
-- <a href="#rwxq">`任务详情`</a>
+- <a href="#dmmljg">`代码目录结构`</a>
+- <a href="#dmsyff">`代码使用方法`</a>
+- <a href="#ckwd">`参考文档`</a>
     - <a href="#rwxq-rw1">`任务1. 逻辑回归模型实践【2018.11.14 - 2018.11.15】`</a>
     - <a href="#rwxq-rw2">`任务2.支持向量机和决策树模型实践 【2018.11.15 - 2018.11.16】`</a>
     - <a href="#rwxq-rw3">`任务3.构建xgboost和lightgbm模型进行预测【2018.11.16 - 2018.11.18】`</a>
@@ -20,9 +20,36 @@
 【期望目标】掌握数据挖掘的流程, 提升合作的能力.
 
 
-<a id="rwxq"/>
+<a id="dmmljg"/>
 
-# 任务详情
+# 代码目录结构
+```
+Overdue
+├─dl: 深度学习 TODO
+├─ml: 机器学习
+│  ├─code
+│  │  ├─ sklearn_config.py: 模型配置文件
+│  |  ├─ sklearn_gcv.py: 模型配置 网络搜索
+│  |  └─ sklearn_train.py: 模型训练
+│  ├─data: 数据存放的目录
+│  ├─features: 
+│  |  └─ base.py: 数据预处理
+│  └─for beginner: TODO
+└─config.py: 全局配置
+```
+
+<a id="dmsyff"/>
+
+# 代码使用方法
+1. 【必须】config.py 设置文件存放的路径
+2. 【必须】先执行 features 中的 base.py 先把数据处理好 [PS:需要根据实际情况修改]
+3. 【可选】再通过 code 中的 sklearn_gcv.py 搜索模型的最佳配置
+4. 【必须】最后通过 code 中的 sklearn_train.py 训练模型输出结果
+
+
+<a id="ckwd"/>
+
+# 参考文档
 
 <a id="rwxq-rw1"/>
 
@@ -35,7 +62,7 @@
 - 面朝大海 https://blog.csdn.net/zhangyunpeng0922/article/details/84106715
 - 大范先生，月光疾风 共同完成：https://blog.csdn.net/weixin_40671804/article/details/84111029 
 - jepson：[https://github.com/JepsonWong/Algorithm_Competition/blob/master/客户预期分析/test.ipynb](https://github.com/JepsonWong/Algorithm_Competition/blob/master/%E5%AE%A2%E6%88%B7%E9%80%BE%E6%9C%9F%E5%88%86%E6%9E%90/test.ipynb)
-- 李碧涵：https://github.com/libihan/Exercise-ML/blob/master/Finance-LR-1115.ipynb
+- 李碧涵：https://github.com/libihan/Exercise-ML/blob/master/Finance.ipynb
  
 <a id="rwxq-rw2"/>
 
