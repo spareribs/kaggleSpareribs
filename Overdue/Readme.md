@@ -87,13 +87,15 @@ Overdue
 
 # 任务3.构建xgboost和lightgbm模型进行预测【2018.11.16 - 2018.11.18】
 - 爖：https://github.com/LongJH/ALittleTarget/blob/master/Mission1/mission3-xgboost-lightgbm.ipynb
-- 憨宝宝：
-- Ash：
+- 憨宝宝：https://blog.csdn.net/qq_41205464/article/details/84204927
+- Ash：https://blog.csdn.net/truffle528/article/details/84200976
 - 黑桃：https://blog.csdn.net/Heitao5200/article/details/84196023
-- 等到的过去：
+- 等到的过去：https://blog.csdn.net/lgy54321/article/details/84202770
 - 面朝大海：https://blog.csdn.net/zhangyunpeng0922/article/details/84193403
 - 排骨：https://blog.csdn.net/q370835062/article/details/84173260
 - 大范先生：https://blog.csdn.net/weixin_40671804/article/details/84186625
 - 月光疾风：https://yezuolin.com/2018/11/UserLoanOverdue_XGBoost&LightGBM/
 - jepson：
-- 李碧涵：
+- 李碧涵：https://blog.csdn.net/a786150017/article/details/84138846
+
+# 任务4.记录五个模型关于precision，rescore，f1，auc，roc的评分表格，画出auc和roc曲线图【2018.11.19 - 2018.11.20】
