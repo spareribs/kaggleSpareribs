@@ -12,6 +12,11 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from config import PATH
 
+# 去除 warnings 的警告
+import warnings
+
+warnings.filterwarnings('ignore')
+
 # 设置显示窗口的大小
 # 参考文章:
 # http://sofasofa.io/forum_main_post.php?postid=1000912
