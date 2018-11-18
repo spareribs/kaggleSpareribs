@@ -14,6 +14,7 @@ from sklearn_config import features_path, clfs, status_vali
 
 # 去除 warnings 的警告
 import warnings
+
 warnings.filterwarnings('ignore')
 
 """=====================================================================================================================
@@ -38,11 +39,16 @@ clf.fit(x_train, y_train)
 3 在验证集上评估模型
 """
 if status_vali:
-    pre_vali = clf.predict(x_vali)
-    model_vali = clf.score(x_vali, y_vali)
-    f1_score_vali = f1_score(y_vali, pre_vali)
-    auc_vali = roc_auc_score(y_vali, pre_vali)
     print("测试模型 & 模型参数如下：\n{0}".format(clf))
-    print("验证集正确率: {0:.4f}".format(model_vali))
-    print("验证集f1分数: {0:.4f}".format(f1_score_vali))
-    print("验证集auc分数: {0:.4f}".format(auc_vali))
+    print("=" * 20)
+    pre_train = clf.predict(x_train)
+    print("训练集正确率: {0:.4f}".format(clf.score(x_train, y_train)))
+    print("训练集f1分数: {0:.4f}".format(f1_score(y_train, pre_train)))
+    print("训练集auc分数: {0:.4f}".format(roc_auc_score(y_train, pre_train)))
+    print("-" * 20)
+    pre_vali = clf.predict(x_vali)
+    print("测试集正确率: {0:.4f}".format(clf.score(x_vali, y_vali)))
+    print("测试集f1分数: {0:.4f}".format(f1_score(y_vali, pre_vali)))
+    print("测试集auc分数: {0:.4f}".format(roc_auc_score(y_vali, pre_vali)))
+    print("=" * 20)
+
