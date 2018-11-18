@@ -71,7 +71,7 @@ train = train.drop(["first_transaction_time", "latest_query_time", "loans_latest
 print("{0}\n     % freature".format("*" * 20))
 for feature in train.columns:  # 查看缺失的数据占比
     null_count = train[feature].isnull().sum()
-    print("{0:.4f} {1}".format(null_count / len(train), feature))
+    print("{0:.4f} {1}".format(null_count * 100 / len(train), feature))
 
 train = train.fillna(0)  # 使用 0 替换所有 NaN 的值
 col = train.columns.tolist()[1:]
