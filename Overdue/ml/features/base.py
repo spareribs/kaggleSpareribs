@@ -17,6 +17,8 @@ from config import PATH
 # http://sofasofa.io/forum_main_post.php?postid=1000912
 # https://blog.csdn.net/saltriver/article/details/78144984
 pd.set_option('display.max_row', 1000)
+pd.set_option('display.max_columns', 10000)
+pd.set_option('display.width', 10000)
 
 """====================================================================
 1. 读取训练数据
