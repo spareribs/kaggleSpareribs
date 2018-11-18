@@ -25,7 +25,7 @@ features_path = '{0}/data_train.pkl'.format(PATH)
 base_clf = LinearSVC()
 
 clfs = {
-    'lr': LogisticRegression(penalty='l2', C=1.0),
+    'lr': LogisticRegression(penalty='l1', C=0.05),
     'svm': LinearSVC(C=0.5, penalty='l2', dual=True),
     'bagging': BaggingClassifier(base_estimator=base_clf, n_estimators=60, max_samples=1.0, max_features=1.0,
                                  random_state=1, n_jobs=1, verbose=1),

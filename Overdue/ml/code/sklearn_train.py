@@ -9,7 +9,7 @@
 
 import pickle
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import f1_score, r2_score
+from sklearn.metrics import f1_score, r2_score, roc_auc_score
 from sklearn_config import features_path, clfs, status_vali
 
 # 去除 warnings 的警告
@@ -30,7 +30,7 @@ if status_vali:
 """=====================================================================================================================
 2 训练分类器, clf_name选择需要的分类器
 """
-clf_name = "svm"
+clf_name = "lr"
 clf = clfs[clf_name]
 clf.fit(x_train, y_train)
 
@@ -41,8 +41,8 @@ if status_vali:
     pre_vali = clf.predict(x_vali)
     model_vali = clf.score(x_vali, y_vali)
     f1_score_vali = f1_score(y_vali, pre_vali)
-    r2_score_vali = r2_score(y_vali, pre_vali)
+    auc_vali = roc_auc_score(y_vali, pre_vali)
     print("测试模型 & 模型参数如下：\n{0}".format(clf))
     print("验证集正确率: {0:.4f}".format(model_vali))
     print("验证集f1分数: {0:.4f}".format(f1_score_vali))
-    print("验证集r2分数: {0:.4f}".format(r2_score_vali))
+    print("验证集auc分数: {0:.4f}".format(auc_vali))
