@@ -1,4 +1,9 @@
-<a href="#head">`点这里从头再读一遍`</a>
+
+
+
+
+<a id="xmb"/>
+
 # 12个人的小练习任务 - 提升算法实践能力
 
 【学习过程】
@@ -13,16 +18,28 @@
 
 【期望目标】掌握数据挖掘的流程，提升合作的能力。
 
-目录
-<a id="head"/>
+**目录**
 
-# 简介
+- <a href="#xmb">`12个人的小练习任务 - 提升算法实践能力`</a>
+- <a href="#jj">`简介`</a>
+- <a href="#rwxq">`任务详情`</a>
+    - <a href="#rwxq-rw1">`任务1. 逻辑回归模型实践【2018.11.14 - 2018.11.15】`</a>
+    - <a href="#rwxq-rw2">`任务2.支持向量机和决策树模型实践 【2018.11.15 - 2018.11.16】`</a>
+    - <a href="#rwxq-rw3">`任务3.构建xgboost和lightgbm模型进行预测【2018.11.16 - 2018.11.18】`</a>
+
+<a id="jj"/>
+
+# 简介 
 数据是金融数据, 我们要做的是预测贷款用户是否会逾期.
 
 表格中, status是标签: 0表示未逾期, 1表示逾期.
 
 
+<a id="rwxq"/>
+
 # 任务详情
+
+<a id="rwxq-rw1"/>
 
 ## 任务1. 逻辑回归模型实践【2018.11.14 - 2018.11.15】
 - 爖：https://github.com/LongJH/ALittleTarget/blob/master/Mission1/mission1.ipynb
@@ -35,6 +52,7 @@
 - jepson：[https://github.com/JepsonWong/Algorithm_Competition/blob/master/客户预期分析/test.ipynb](https://github.com/JepsonWong/Algorithm_Competition/blob/master/%E5%AE%A2%E6%88%B7%E9%80%BE%E6%9C%9F%E5%88%86%E6%9E%90/test.ipynb)
 - 李碧涵：https://github.com/libihan/Exercise-ML/blob/master/Finance-LR-1115.ipynb
  
+<a id="rwxq-rw2"/>
 
 ## 任务2.支持向量机和决策树模型实践 【2018.11.15 - 2018.11.16】
 - 爖：https://github.com/LongJH/ALittleTarget/blob/master/Mission1/mission2-svm-dt.ipynb
@@ -48,6 +66,8 @@
 - 月光疾风：https://yezuolin.com/2018/11/UserLoanOverdue/
 - jepson：[https://github.com/JepsonWong/Algorithm_Competition/blob/master/客户预期分析/test.ipynb](https://github.com/JepsonWong/Algorithm_Competition/blob/master/%E5%AE%A2%E6%88%B7%E9%80%BE%E6%9C%9F%E5%88%86%E6%9E%90/test.ipynb)
 - 李碧涵：https://blog.csdn.net/a786150017/article/details/84138846
+
+<a id="rwxq-rw3"/>
 
 # 任务3.构建xgboost和lightgbm模型进行预测【2018.11.16 - 2018.11.18】
 - 爖：https://github.com/LongJH/ALittleTarget/blob/master/Mission1/mission3-xgboost-lightgbm.ipynb
