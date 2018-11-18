@@ -67,8 +67,12 @@ train = pd.get_dummies(train, columns=["reg_preference_for_trad"], prefix="reg_p
 train = train.drop(["first_transaction_time", "latest_query_time", "loans_latest_time"], axis=1)
 
 # 3.4 缺失值填充 - 先使用众数填充
-train.isnull().sum()  # 查看缺失的数据
-train.info()  # 查看数据类型
+# train.info()  # 查看数据类型
+print("{0}\n     % freature".format("*" * 20))
+for feature in train.columns:  # 查看缺失的数据占比
+    null_count = train[feature].isnull().sum()
+    print("{0:.4f} {1}".format(null_count / len(train), feature))
+
 train = train.fillna(0)  # 使用 0 替换所有 NaN 的值
 col = train.columns.tolist()[1:]
 
