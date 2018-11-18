@@ -1,19 +1,19 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-# @Time    : 2018/11/18 12:12
+# @Time    : 2018/11/18 18:46
 # @Author  : Spareribs
-# @File    : base.py
+# @File    : sklearn_gcv.py
 # @Software: PyCharm
 """
 
 import pickle
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import f1_score, r2_score
+from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn_config import features_path, clfs, status_vali
 
 # 去除 warnings 的警告
 import warnings
+
 warnings.filterwarnings('ignore')
 
 """=====================================================================================================================
@@ -30,19 +30,20 @@ if status_vali:
 """=====================================================================================================================
 2 训练分类器, clf_name选择需要的分类器
 """
-clf_name = "svm"
+clf_name = "lr"
 clf = clfs[clf_name]
-clf.fit(x_train, y_train)
 
 """=====================================================================================================================
-3 在验证集上评估模型
+3 使用网络搜索获得最优的参数
 """
-if status_vali:
-    pre_vali = clf.predict(x_vali)
-    model_vali = clf.score(x_vali, y_vali)
-    f1_score_vali = f1_score(y_vali, pre_vali)
-    r2_score_vali = r2_score(y_vali, pre_vali)
-    print("测试模型 & 模型参数如下：\n{0}".format(clf))
-    print("验证集正确率: {0:.4f}".format(model_vali))
-    print("验证集f1分数: {0:.4f}".format(f1_score_vali))
-    print("验证集r2分数: {0:.4f}".format(r2_score_vali))
+
+param_grid = {
+    'C': [0.05, 0.1, 0.5, 1.5],
+    'penalty': ['l1', 'l2']
+}
+
+grid = GridSearchCV(clf, param_grid, scoring='f1_micro')
+grid.fit(x_train, y_train)
+
+print("最优参数：{0}".format(grid.best_params_))
+print("最好的分数{0}".format(grid.best_score_))

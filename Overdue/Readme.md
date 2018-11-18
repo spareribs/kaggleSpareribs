@@ -27,7 +27,7 @@
 <a id="rwxq-rw1"/>
 
 ## 任务1. 逻辑回归模型实践【2018.11.14 - 2018.11.15】
-- 爖：https://github.com/LongJH/ALittleTarget/blob/master/Mission1/mission1.ipynb
+- 爖：https://github.com/LongJH/ALittleTarget/blob/master/Mission1/mission1-lr.ipynb
 - Ash：https://blog.csdn.net/truffle528/article/details/84072452
 - 憨宝宝：https://blog.csdn.net/qq_41205464/article/details/84111934
 - 黑桃，等到的过去 共同完成：https://blog.csdn.net/lgy54321/article/details/84101357
@@ -62,7 +62,7 @@
 - 等到的过去：
 - 面朝大海：https://blog.csdn.net/zhangyunpeng0922/article/details/84193403
 - 排骨：https://blog.csdn.net/q370835062/article/details/84173260
-- 大范先生：
-- 月光疾风：
+- 大范先生：https://blog.csdn.net/weixin_40671804/article/details/84186625
+- 月光疾风：https://yezuolin.com/2018/11/UserLoanOverdue_XGBoost&LightGBM/
 - jepson：
 - 李碧涵：
