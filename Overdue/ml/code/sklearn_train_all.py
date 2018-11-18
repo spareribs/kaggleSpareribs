@@ -32,7 +32,7 @@ if status_vali:
 """=====================================================================================================================
 2 训练分类器, clf_name选择需要的分类器
 """
-clf_names = ["lr", 'svm', 'rf', 'xgb', 'lgb']
+clf_names = ["lr", 'svm']
 pre_vali_dict = {}
 for clf_name in clf_names:
     clf = clfs[clf_name]
@@ -49,25 +49,29 @@ for clf_name in clf_names:
         print("训练集f1分数: {0:.4f}".format(f1_score(y_train, pre_train)))
         print("训练集auc分数: {0:.4f}".format(roc_auc_score(y_train, pre_train)))
         print("-" * 20)
+        pre_score = clf.fit(x_train, y_train).decision_function(x_vali)
         pre_vali = clf.predict(x_vali)
         print("测试集正确率: {0:.4f}".format(clf.score(x_vali, y_vali)))
         print("测试集f1分数: {0:.4f}".format(f1_score(y_vali, pre_vali)))
         print("测试集auc分数: {0:.4f}".format(roc_auc_score(y_vali, pre_vali)))
         print("=" * 20)
-        pre_vali_dict[clf_name] = pre_vali
+        pre_vali_dict[clf_name] = {}
+        pre_vali_dict[clf_name]["pre_vali"] = pre_vali
+        pre_vali_dict[clf_name]["pre_score"]=pre_score
 
+print(pre_vali_dict)
 """
 4. 绘制图
 https://yq.aliyun.com/articles/623375
-
+http://bei.dreamcykj.com/2018/08/19/ROC原理介绍及利用python实现二分类和多分类的ROC曲线 (1)/
 """
 color_dict = {
     "lr": "r-", 'svm': "b-", 'rf': "g-", 'xgb': "y-", 'lgb': "d-"
 }
 if status_vali:
-    for pre_vali in pre_vali_dict:
-        fpr, tpr, thresholds = roc_curve(y_vali, pre_vali_dict[pre_vali])
-        plt.plot(fpr, tpr, color_dict[pre_vali], label=pre_vali)
+    for model in pre_vali_dict:
+        fpr, tpr, thresholds = roc_curve(pre_vali_dict[model]["pre_vali"], pre_vali_dict[model]["pre_score"])
+        plt.plot(fpr, tpr, color_dict[model], label=pre_vali)
 
     plt.legend()
     plt.xlabel('False Positive Rate')
