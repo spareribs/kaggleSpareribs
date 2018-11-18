@@ -40,7 +40,7 @@ clfs = {
     #                          nthread=1, gamma=0, min_child_weight=1, max_delta_step=0, subsample=1, colsample_bytree=1,
     #                          colsample_bylevel=1, reg_alpha=0, reg_lambda=1, scale_pos_weight=1, base_score=0.5, seed=0,
     #                          missing=None),
-    # 'xgb': xgb.XGBClassifier(),
+    'xgb': xgb.XGBClassifier(),
     'lgb': lgb.LGBMClassifier(boosting_type='gbdt', num_leaves=31, max_depth=-1, learning_rate=0.1, n_estimators=250,
                               max_bin=255, subsample_for_bin=200000, objective=None, min_split_gain=0.0,
                               min_child_weight=0.001,
