@@ -31,7 +31,7 @@
 - 排骨 https://blog.csdn.net/q370835062/article/details/84133789
 - 面朝大海 https://blog.csdn.net/zhangyunpeng0922/article/details/84106715
 - 大范先生，月光疾风 共同完成：https://blog.csdn.net/weixin_40671804/article/details/84111029 
-- jepson：https://github.com/JepsonWong/Algorithm_Competition/blob/master/%E5%AE%A2%E6%88%B7%E9%80%BE%E6%9C%9F%E5%88%86%E6%9E%90/test.ipynb
+- jepson：[https://github.com/JepsonWong/Algorithm_Competition/blob/master/客户预期分析/test.ipynb](https://github.com/JepsonWong/Algorithm_Competition/blob/master/%E5%AE%A2%E6%88%B7%E9%80%BE%E6%9C%9F%E5%88%86%E6%9E%90/test.ipynb)
 - 李碧涵：https://github.com/libihan/Exercise-ML/blob/master/Finance-LR-1115.ipynb
  
 
@@ -45,7 +45,7 @@
 - 排骨：https://blog.csdn.net/q370835062/article/details/84173260
 - 大范先生：https://blog.csdn.net/weixin_40671804/article/details/84144980
 - 月光疾风：https://yezuolin.com/2018/11/UserLoanOverdue/
-- jepson：https://github.com/JepsonWong/Algorithm_Competition/blob/master/%E5%AE%A2%E6%88%B7%E9%80%BE%E6%9C%9F%E5%88%86%E6%9E%90/test.ipynb
+- jepson：[https://github.com/JepsonWong/Algorithm_Competition/blob/master/客户预期分析/test.ipynb](https://github.com/JepsonWong/Algorithm_Competition/blob/master/%E5%AE%A2%E6%88%B7%E9%80%BE%E6%9C%9F%E5%88%86%E6%9E%90/test.ipynb)
 - 李碧涵：https://blog.csdn.net/a786150017/article/details/84138846
 
 # 任务3.构建xgboost和lightgbm模型进行预测【2018.11.16 - 2018.11.18】
