@@ -24,7 +24,7 @@
 
 # 代码说明
 
-代码目录 https://github.com/spareribs/kaggleSpareribs/edit/master/Overdue/Readme.md
+代码目录 https://github.com/spareribs/kaggleSpareribs/blob/master/Overdue/Readme.md
 
 <a id="dmmljg"/>
 
