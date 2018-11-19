@@ -85,7 +85,7 @@ Overdue
 
 <a id="rwxq-rw3"/>
 
-# 任务3.构建xgboost和lightgbm模型进行预测【2018.11.16 - 2018.11.18】
+## 任务3.构建xgboost和lightgbm模型进行预测【2018.11.16 - 2018.11.18】
 - 爖：https://github.com/LongJH/ALittleTarget/blob/master/Mission1/mission3-xgboost-lightgbm.ipynb
 - 憨宝宝：https://blog.csdn.net/qq_41205464/article/details/84204927
 - Ash：https://blog.csdn.net/truffle528/article/details/84200976
@@ -98,4 +98,4 @@ Overdue
 - jepson：
 - 李碧涵：https://blog.csdn.net/a786150017/article/details/84138846
 
-# 任务4.记录五个模型关于precision，rescore，f1，auc，roc的评分表格，画出auc和roc曲线图【2018.11.19 - 2018.11.20】
+## 任务4.记录五个模型关于precision，rescore，f1，auc，roc的评分表格，画出auc和roc曲线图【2018.11.19 - 2018.11.20】
