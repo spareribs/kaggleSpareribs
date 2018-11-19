@@ -24,6 +24,8 @@
 
 # 代码说明
 
+代码目录 https://github.com/spareribs/kaggleSpareribs/edit/master/Overdue/Readme.md
+
 <a id="dmmljg"/>
 
 ## 代码目录结构
@@ -100,4 +102,4 @@ Overdue
 
 <a id="rwxq-rw4"/>
 
-## 任务4.记录五个模型关于precision，rescore，f1，auc，roc的评分表格，画出auc和roc曲线图【2018.11.19 - 2018.11.20】
+## 任务4.记录五个模型的评分表格，画出auc和roc曲线图【2018.11.19 - 2018.11.20】
