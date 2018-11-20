@@ -6,6 +6,9 @@
 # @File    : base.py
 # @Software: PyCharm
 """
+import os
+import sys
+sys.path.append(os.path.abspath('.'))
 
 import pickle
 import pandas as pd

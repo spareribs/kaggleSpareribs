@@ -7,15 +7,19 @@
 # @Software: PyCharm
 """
 
-from config import PATH
-from sklearn.linear_model import LogisticRegression
-from sklearn.svm import LinearSVC
-from sklearn.ensemble import BaggingClassifier, RandomForestClassifier, AdaBoostClassifier, GradientBoostingClassifier
-import xgboost as xgb
-import lightgbm as lgb
-
 # 设置不启用gpu
 import os
+
+
+import lightgbm as lgb
+import xgboost as xgb
+from sklearn.svm import SVC
+from sklearn.ensemble import BaggingClassifier, RandomForestClassifier, AdaBoostClassifier, GradientBoostingClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.svm import LinearSVC
+
+from config import PATH
+
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 """是否开启验证集模式"""
@@ -31,6 +35,8 @@ base_clf = LinearSVC()
 clfs = {
     'lr': LogisticRegression(penalty='l1', C=0.05),
     'svm': LinearSVC(C=0.5, penalty='l2', dual=True),
+    'svm_linear': SVC(kernel='linear', probability=True),
+    'svm_ploy': SVC(kernel='poly', probability=True),
     'bagging': BaggingClassifier(base_estimator=base_clf, n_estimators=60, max_samples=1.0, max_features=1.0,
                                  random_state=1, n_jobs=1, verbose=1),
     'rf': RandomForestClassifier(n_estimators=10, criterion='gini'),

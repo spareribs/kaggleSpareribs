@@ -9,6 +9,6 @@
 
 import os
 import sys
-sys.path.append(os.path.abspath(os.path.dirname(__file__)))
+sys.path.append(os.path.abspath('../'))
 # 设定文件的默认路径
 PATH = "D:/SoftwareData/Database/jinrong"

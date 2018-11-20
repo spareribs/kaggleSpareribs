@@ -7,7 +7,7 @@
     - <a href="#rwxq-rw1">`【2018.11.14 - 2018.11.15】任务1. 逻辑回归模型实践`</a>
     - <a href="#rwxq-rw2">`【2018.11.15 - 2018.11.16】任务2. 支持向量机和决策树模型实践 `</a>
     - <a href="#rwxq-rw3">`【2018.11.16 - 2018.11.18】任务3. 构建xgboost和lightgbm模型进行预测`</a>
-
+    - <a href="#rwxq-rw4">`【2018.11.19 - 2018.11.20】任务4. 记录五个模型关于的评分表格, 画出auc和roc曲线图`</a>
 
 <a id="jj"/>
 
@@ -23,6 +23,8 @@
 <a id="dmsm"/>
 
 # 代码说明
+
+代码目录 https://github.com/spareribs/kaggleSpareribs/blob/master/Overdue/Readme.md
 
 <a id="dmmljg"/>
 
@@ -85,7 +87,7 @@ Overdue
 
 <a id="rwxq-rw3"/>
 
-# 任务3.构建xgboost和lightgbm模型进行预测【2018.11.16 - 2018.11.18】
+## 任务3.构建xgboost和lightgbm模型进行预测【2018.11.16 - 2018.11.18】
 - 爖：https://github.com/LongJH/ALittleTarget/blob/master/Mission1/mission3-xgboost-lightgbm.ipynb
 - 憨宝宝：https://blog.csdn.net/qq_41205464/article/details/84204927
 - Ash：https://blog.csdn.net/truffle528/article/details/84200976
@@ -98,4 +100,6 @@ Overdue
 - jepson：
 - 李碧涵：https://blog.csdn.net/a786150017/article/details/84138846
 
-# 任务4.记录五个模型关于precision，rescore，f1，auc，roc的评分表格，画出auc和roc曲线图【2018.11.19 - 2018.11.20】
+<a id="rwxq-rw4"/>
+
+## 任务4.记录五个模型的评分表格，画出auc和roc曲线图【2018.11.19 - 2018.11.20】
