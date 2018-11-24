@@ -125,9 +125,9 @@ x_train = train.drop(["status"], axis=1)
 y_train = train["status"]
 
 standardScaler = StandardScaler()
-scaler = standardScaler.fit(train)
-train = scaler.transform(train)
-print(train)
+scaler = standardScaler.fit(x_train)
+x_train = scaler.transform(x_train)
+print(x_train)
 
 """====================================================================
 5. 将处理后的结果保存

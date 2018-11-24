@@ -18,7 +18,6 @@ import warnings
 import matplotlib.pyplot as plt
 from sklearn.metrics import f1_score, roc_auc_score, roc_curve, recall_score, accuracy_score
 from sklearn.model_selection import train_test_split
-
 from sklearn_config import features_path, clfs, status_vali
 
 warnings.filterwarnings('ignore')
@@ -40,7 +39,6 @@ else:
 2 训练分类器, clf_name选择需要的分类器
 """
 clf_name = "svm_ploy"
-pre_vali_dict = {}
 clf = clfs[clf_name]
 clf.fit(x_train, y_train)
 
@@ -50,6 +48,15 @@ clf.fit(x_train, y_train)
 
 
 def model_metrics(clf, x_train, x_vali, y_train, y_vali):
+    """
+
+    :param clf: 模型
+    :param x_train: 训练集
+    :param x_vali: 测试集
+    :param y_train: 训练集标签
+    :param y_vali: 测试集标签
+    :return: 绘图所需要的数据, 以 dict 的形式返回
+    """
     print("测试模型 & 模型参数如下：\n{0}".format(clf))
     # pre_train = clf.predict(x_train)
     # print("训练集正确率: {0:.4f}".format(clf.score(x_train, y_train)))
@@ -121,9 +128,6 @@ if status_vali:
 https://yq.aliyun.com/articles/623375
 http://bei.dreamcykj.com/2018/08/19/ROC原理介绍及利用python实现二分类和多分类的ROC曲线 (1)/
 """
-color_dict = {
-    "lr": "r-", 'svm': "b-", 'rf': "g-", 'xgb': "y-", 'lgb': "d-"
-}
 plt.plot(rou_auc.get("fpr_tr"), rou_auc.get("tpr_tr"), 'r-',
          label="Train:AUC: {:.3f} KS:{:.3f}".format(rou_auc.get("roc_auc_train"), rou_auc.get("ks_train")))
 plt.plot(rou_auc.get("fpr_te"), rou_auc.get("tpr_te"), 'g-',
