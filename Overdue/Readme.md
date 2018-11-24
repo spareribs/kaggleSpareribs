@@ -56,12 +56,12 @@ Overdue
 <a id="grzj"/>
 
 # 个人总结
-- 机器学习 scikit-learn2 模型实践 - 逻辑回归
-- 机器学习 scikit-learn3 模型实践 - 支持向量机和决策树
-- 机器学习 scikit-learn4 模型实践 - xgboost和lightgbm
-- 机器学习 scikit-learn5 模型评分
-- 机器学习 scikit-learn6 特征工程
-- 机器学习 scikit-learn7 网络搜索
+- [机器学习 scikit-learn2 模型实践 - 逻辑回归](https://blog.csdn.net/q370835062/article/details/84173260)
+- [机器学习 scikit-learn3 模型实践 - 支持向量机和决策树](https://blog.csdn.net/q370835062/article/details/84311268)
+- [机器学习 scikit-learn4 模型实践 - xgboost和lightgbm](https://blog.csdn.net/q370835062/article/details/84436395)
+- [机器学习 scikit-learn5 模型评分 - AUC ROC](https://blog.csdn.net/q370835062/article/details/84436428)
+- [机器学习 scikit-learn6 特征工程 - 数据预处理](https://blog.csdn.net/q370835062/article/details/84436445)
+- [机器学习 scikit-learn7 网络搜索 -CV](https://blog.csdn.net/q370835062/article/details/84436945)
 
 <a id="ckwd"/>
 
@@ -74,7 +74,7 @@ Overdue
 Ash：https://blog.csdn.net/truffle528/article/details/84072452
 憨宝宝：https://blog.csdn.net/qq_41205464/article/details/84111934
 黑桃，等到的过去 共同完成：https://blog.csdn.net/lgy54321/article/details/84101357
-排骨 https://blog.csdn.net/q370835062/article/details/84133789
+排骨 https://blog.csdn.net/q370835062/article/details/84173260
 面朝大海 https://blog.csdn.net/zhangyunpeng0922/article/details/84106715
 大范先生，月光疾风 共同完成：https://blog.csdn.net/weixin_40671804/article/details/84111029 
 jepson：[https://github.com/JepsonWong/Algorithm_Competition/blob/master/客户预期分析/test.ipynb](https://github.com/JepsonWong/Algorithm_Competition/blob/master/%E5%AE%A2%E6%88%B7%E9%80%BE%E6%9C%9F%E5%88%86%E6%9E%90/test.ipynb)
@@ -89,7 +89,7 @@ Ash：https://blog.csdn.net/truffle528/article/details/84168200
 黑桃：https://blog.csdn.net/Heitao5200/article/details/84141345
 等到的过去：https://blog.csdn.net/lgy54321/article/details/84145213
 面朝大海：https://blog.csdn.net/zhangyunpeng0922/article/details/84136003
-排骨：https://blog.csdn.net/q370835062/article/details/84173260
+排骨：https://blog.csdn.net/q370835062/article/details/84311268
 大范先生：https://blog.csdn.net/weixin_40671804/article/details/84144980
 月光疾风：https://yezuolin.com/2018/11/UserLoanOverdue/
 jepson：[https://github.com/JepsonWong/Algorithm_Competition/blob/master/客户预期分析/test.ipynb](https://github.com/JepsonWong/Algorithm_Competition/blob/master/%E5%AE%A2%E6%88%B7%E9%80%BE%E6%9C%9F%E5%88%86%E6%9E%90/test.ipynb)
@@ -104,7 +104,7 @@ Ash：https://blog.csdn.net/truffle528/article/details/84200976
 黑桃：https://blog.csdn.net/Heitao5200/article/details/84196023
 等到的过去：https://blog.csdn.net/lgy54321/article/details/84202770
 面朝大海：https://blog.csdn.net/zhangyunpeng0922/article/details/84193403
-排骨：https://blog.csdn.net/q370835062/article/details/84173260
+排骨：https://blog.csdn.net/q370835062/article/details/84436395
 大范先生：https://blog.csdn.net/weixin_40671804/article/details/84186625
 月光疾风：https://yezuolin.com/2018/11/UserLoanOverdue_XGBoost&LightGBM/
 jepson：
@@ -122,7 +122,7 @@ Ash：https://blog.csdn.net/truffle528/article/details/84310726
 黑桃：https://blog.csdn.net/Heitao5200/article/details/84299290
 等到的过去：https://blog.csdn.net/lgy54321/article/details/84309512
 面朝大海：https://blog.csdn.net/zhangyunpeng0922/article/details/84257426
-排骨：https://blog.csdn.net/q370835062/article/details/84173260
+排骨：https://blog.csdn.net/q370835062/article/details/84436428
 大范先生：https://blog.csdn.net/weixin_40671804/article/details/84305384
 月光疾风：https://yezuolin.com/2018/11/TheModelofUserLoanOverdueEvaluation/
 jepson：https://github.com/JepsonWong/Algorithm_Competition/blob/master/客户逾期分析/test.ipynb
@@ -140,7 +140,7 @@ Ash：https://blog.csdn.net/truffle528/article/details/84337769
 黑桃：https://blog.csdn.net/Heitao5200/article/details/84322187
 等到的过去：https://blog.csdn.net/lgy54321/article/details/84330070
 面朝大海：https://blog.csdn.net/zhangyunpeng0922/article/details/84346663
-排骨：https://blog.csdn.net/q370835062/article/details/84311268
+排骨：https://blog.csdn.net/q370835062/article/details/84436445
 大范先生：https://blog.csdn.net/weixin_40671804/article/details/84346853
 月光疾风：https://yezuolin.com/2018/11/UserLoanOverdue_FeatureEngineering/
 jepson：https://github.com/JepsonWong/Algorithm_Competition/blob/master/客户逾期分析/test.ipynb
