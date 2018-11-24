@@ -70,78 +70,78 @@ Overdue
 <a id="rwxq-rw1"/>
 
 ## 任务1. 逻辑回归模型实践【2018.11.14 - 2018.11.15】
-爖：https://github.com/LongJH/ALittleTarget/blob/master/Mission1/mission1-lr.ipynb
-Ash：https://blog.csdn.net/truffle528/article/details/84072452
-憨宝宝：https://blog.csdn.net/qq_41205464/article/details/84111934
-黑桃，等到的过去 共同完成：https://blog.csdn.net/lgy54321/article/details/84101357
-排骨 https://blog.csdn.net/q370835062/article/details/84173260
-面朝大海 https://blog.csdn.net/zhangyunpeng0922/article/details/84106715
-大范先生，月光疾风 共同完成：https://blog.csdn.net/weixin_40671804/article/details/84111029 
-jepson：[https://github.com/JepsonWong/Algorithm_Competition/blob/master/客户预期分析/test.ipynb](https://github.com/JepsonWong/Algorithm_Competition/blob/master/%E5%AE%A2%E6%88%B7%E9%80%BE%E6%9C%9F%E5%88%86%E6%9E%90/test.ipynb)
-李碧涵：https://github.com/libihan/Exercise-ML/blob/master/Finance.ipynb
- 
+- 爖：https://github.com/LongJH/ALittleTarget/blob/master/Mission1/mission1-lr.ipynb
+- Ash：https://blog.csdn.net/truffle528/article/details/84072452
+- 憨宝宝：https://blog.csdn.net/qq_41205464/article/details/84111934
+- 黑桃，等到的过去 共同完成：https://blog.csdn.net/lgy54321/article/details/84101357
+- 排骨 https://blog.csdn.net/q370835062/article/details/84173260
+- 面朝大海 https://blog.csdn.net/zhangyunpeng0922/article/details/84106715
+- 大范先生，月光疾风 共同完成：https://blog.csdn.net/weixin_40671804/article/details/84111029 
+- jepson：[https://github.com/JepsonWong/Algorithm_Competition/blob/master/客户预期分析/test.ipynb](https://github.com/JepsonWong/Algorithm_Competition/blob/master/%E5%AE%A2%E6%88%B7%E9%80%BE%E6%9C%9F%E5%88%86%E6%9E%90/test.ipynb)
+- 李碧涵：https://github.com/libihan/Exercise-ML/blob/master/Finance.ipynb
+-  
 <a id="rwxq-rw2"/>
 
 ## 任务2.支持向量机和决策树模型实践 【2018.11.15 - 2018.11.16】
-爖：https://github.com/LongJH/ALittleTarget/blob/master/Mission1/mission2-svm-dt.ipynb
-憨宝宝：https://blog.csdn.net/qq_41205464/article/details/84169197
-Ash：https://blog.csdn.net/truffle528/article/details/84168200
-黑桃：https://blog.csdn.net/Heitao5200/article/details/84141345
-等到的过去：https://blog.csdn.net/lgy54321/article/details/84145213
-面朝大海：https://blog.csdn.net/zhangyunpeng0922/article/details/84136003
-排骨：https://blog.csdn.net/q370835062/article/details/84311268
-大范先生：https://blog.csdn.net/weixin_40671804/article/details/84144980
-月光疾风：https://yezuolin.com/2018/11/UserLoanOverdue/
-jepson：[https://github.com/JepsonWong/Algorithm_Competition/blob/master/客户预期分析/test.ipynb](https://github.com/JepsonWong/Algorithm_Competition/blob/master/%E5%AE%A2%E6%88%B7%E9%80%BE%E6%9C%9F%E5%88%86%E6%9E%90/test.ipynb)
-李碧涵：https://blog.csdn.net/a786150017/article/details/84138846
+- 爖：https://github.com/LongJH/ALittleTarget/blob/master/Mission1/mission2-svm-dt.ipynb
+- 憨宝宝：https://blog.csdn.net/qq_41205464/article/details/84169197
+- Ash：https://blog.csdn.net/truffle528/article/details/84168200
+- 黑桃：https://blog.csdn.net/Heitao5200/article/details/84141345
+- 等到的过去：https://blog.csdn.net/lgy54321/article/details/84145213
+- 面朝大海：https://blog.csdn.net/zhangyunpeng0922/article/details/84136003
+- 排骨：https://blog.csdn.net/q370835062/article/details/84311268
+- 大范先生：https://blog.csdn.net/weixin_40671804/article/details/84144980
+- 月光疾风：https://yezuolin.com/2018/11/UserLoanOverdue/
+- jepson：[https://github.com/JepsonWong/Algorithm_Competition/blob/master/客户预期分析/test.ipynb](https://github.com/JepsonWong/Algorithm_Competition/blob/master/%E5%AE%A2%E6%88%B7%E9%80%BE%E6%9C%9F%E5%88%86%E6%9E%90/test.ipynb)
+- 李碧涵：https://blog.csdn.net/a786150017/article/details/84138846
 
 <a id="rwxq-rw3"/>
 
 ## 任务3.构建xgboost和lightgbm模型进行预测【2018.11.16 - 2018.11.18】
-爖：https://github.com/LongJH/ALittleTarget/blob/master/Mission1/mission3-xgboost-lightgbm.ipynb
-憨宝宝：https://blog.csdn.net/qq_41205464/article/details/84204927
-Ash：https://blog.csdn.net/truffle528/article/details/84200976
-黑桃：https://blog.csdn.net/Heitao5200/article/details/84196023
-等到的过去：https://blog.csdn.net/lgy54321/article/details/84202770
-面朝大海：https://blog.csdn.net/zhangyunpeng0922/article/details/84193403
-排骨：https://blog.csdn.net/q370835062/article/details/84436395
-大范先生：https://blog.csdn.net/weixin_40671804/article/details/84186625
-月光疾风：https://yezuolin.com/2018/11/UserLoanOverdue_XGBoost&LightGBM/
-jepson：
-李碧涵：https://blog.csdn.net/a786150017/article/details/84138846
+- 爖：https://github.com/LongJH/ALittleTarget/blob/master/Mission1/mission3-xgboost-lightgbm.ipynb
+- 憨宝宝：https://blog.csdn.net/qq_41205464/article/details/84204927
+- Ash：https://blog.csdn.net/truffle528/article/details/84200976
+- 黑桃：https://blog.csdn.net/Heitao5200/article/details/84196023
+- 等到的过去：https://blog.csdn.net/lgy54321/article/details/84202770
+- 面朝大海：https://blog.csdn.net/zhangyunpeng0922/article/details/84193403
+- 排骨：https://blog.csdn.net/q370835062/article/details/84436395
+- 大范先生：https://blog.csdn.net/weixin_40671804/article/details/84186625
+- 月光疾风：https://yezuolin.com/2018/11/UserLoanOverdue_XGBoost&LightGBM/
+- jepson：
+- 李碧涵：https://blog.csdn.net/a786150017/article/details/84138846
 
 <a id="rwxq-rw4"/>
 
 ## 任务4.模型评分【2018.11.19 - 2018.11.20】
-- 记录五个模型关于precision，rescore，f1，auc，roc的评分表格，画出auc和roc曲线图
+> 记录五个模型关于precision，rescore，f1，auc，roc的评分表格，画出auc和roc曲线图
 
-爖：https://blog.csdn.net/l75326747/article/details/84233247
-https://github.com/LongJH/ALittleTarget/blob/master/Mission1/mission4-metrics.ipynb
-憨宝宝：https://blog.csdn.net/qq_41205464/article/details/84311363
-Ash：https://blog.csdn.net/truffle528/article/details/84310726
-黑桃：https://blog.csdn.net/Heitao5200/article/details/84299290
-等到的过去：https://blog.csdn.net/lgy54321/article/details/84309512
-面朝大海：https://blog.csdn.net/zhangyunpeng0922/article/details/84257426
-排骨：https://blog.csdn.net/q370835062/article/details/84436428
-大范先生：https://blog.csdn.net/weixin_40671804/article/details/84305384
-月光疾风：https://yezuolin.com/2018/11/TheModelofUserLoanOverdueEvaluation/
-jepson：https://github.com/JepsonWong/Algorithm_Competition/blob/master/客户逾期分析/test.ipynb
-李碧涵：https://blog.csdn.net/a786150017/article/details/84138846
+- 爖：https://blog.csdn.net/l75326747/article/details/84233247
+- https://github.com/LongJH/ALittleTarget/blob/master/Mission1/mission4-metrics.ipynb
+- 憨宝宝：https://blog.csdn.net/qq_41205464/article/details/84311363
+- Ash：https://blog.csdn.net/truffle528/article/details/84310726
+- 黑桃：https://blog.csdn.net/Heitao5200/article/details/84299290
+- 等到的过去：https://blog.csdn.net/lgy54321/article/details/84309512
+- 面朝大海：https://blog.csdn.net/zhangyunpeng0922/article/details/84257426
+- 排骨：https://blog.csdn.net/q370835062/article/details/84436428
+- 大范先生：https://blog.csdn.net/weixin_40671804/article/details/84305384
+- 月光疾风：https://yezuolin.com/2018/11/TheModelofUserLoanOverdueEvaluation/
+- jepson：https://github.com/JepsonWong/Algorithm_Competition/blob/master/客户逾期分析/test.ipynb
+- 李碧涵：https://blog.csdn.net/a786150017/article/details/84138846
 
 
 <a id="rwxq-rw5"/>
 
 ## 任务5. 特征工程 - 数据预处理【2018.11.20 - 2018.11.21】
-- 关于数据类型转换以及缺失值处理（尝试不同的填充看效果）以及你能借鉴的数据探索
-
-爖：https://blog.csdn.net/l75326747/article/details/84326897
-憨宝宝 https://blog.csdn.net/qq_41205464/article/details/84348766
-Ash：https://blog.csdn.net/truffle528/article/details/84337769
-黑桃：https://blog.csdn.net/Heitao5200/article/details/84322187
-等到的过去：https://blog.csdn.net/lgy54321/article/details/84330070
-面朝大海：https://blog.csdn.net/zhangyunpeng0922/article/details/84346663
-排骨：https://blog.csdn.net/q370835062/article/details/84436445
-大范先生：https://blog.csdn.net/weixin_40671804/article/details/84346853
-月光疾风：https://yezuolin.com/2018/11/UserLoanOverdue_FeatureEngineering/
-jepson：https://github.com/JepsonWong/Algorithm_Competition/blob/master/客户逾期分析/test.ipynb
-李碧涵：https://blog.csdn.net/a786150017/article/details/84348205
+> 关于数据类型转换以及缺失值处理（尝试不同的填充看效果）以及你能借鉴的数据探索
+- 
+- 爖：https://blog.csdn.net/l75326747/article/details/84326897
+- 憨宝宝 https://blog.csdn.net/qq_41205464/article/details/84348766
+- Ash：https://blog.csdn.net/truffle528/article/details/84337769
+- 黑桃：https://blog.csdn.net/Heitao5200/article/details/84322187
+- 等到的过去：https://blog.csdn.net/lgy54321/article/details/84330070
+- 面朝大海：https://blog.csdn.net/zhangyunpeng0922/article/details/84346663
+- 排骨：https://blog.csdn.net/q370835062/article/details/84436445
+- 大范先生：https://blog.csdn.net/weixin_40671804/article/details/84346853
+- 月光疾风：https://yezuolin.com/2018/11/UserLoanOverdue_FeatureEngineering/
+- jepson：https://github.com/JepsonWong/Algorithm_Competition/blob/master/客户逾期分析/test.ipynb
+- 李碧涵：https://blog.csdn.net/a786150017/article/details/84348205
