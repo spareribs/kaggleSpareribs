@@ -24,14 +24,14 @@ data_fp = open(features_path, 'rb')
 x_train, y_train = pickle.load(data_fp)
 data_fp.close()
 
-"""划分训练集和验证集，验证集比例为test_size"""
+""" 划分训练集和验证集，验证集比例为test_size """
 if status_vali:
     x_train, x_vali, y_train, y_vali = train_test_split(x_train, y_train, test_size=0.3, random_state=0)
 
 """=====================================================================================================================
 2 训练分类器, clf_name选择需要的分类器
 """
-clf_name = "lr"
+clf_name = "lgb"
 clf = clfs[clf_name]
 clf.fit(x_train, y_train)
 

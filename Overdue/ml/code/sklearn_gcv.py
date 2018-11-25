@@ -31,10 +31,11 @@ clf = clfs[clf_name]
 
 param_grid = {
     'C': [0.05, 0.1, 0.5, 1.5],
-    'penalty': ['l1', 'l2']
+    'penalty': ['l1', 'l2'],
+    'tol': [1e-4, 1e-5, 1e-6]
 }
 
-grid = GridSearchCV(clf, param_grid, scoring='f1_micro')
+grid = GridSearchCV(clf, param_grid, scoring='f1')
 grid.fit(x_train, y_train)
 
 print("最优参数：{0}".format(grid.best_params_))
@@ -52,7 +53,7 @@ param_grid = {
     'dual': [True]
 }
 
-grid = GridSearchCV(clf, param_grid, scoring='f1_micro')
+grid = GridSearchCV(clf, param_grid, scoring='f1')
 grid.fit(x_train, y_train)
 
 print("最优参数：{0}".format(grid.best_params_))
@@ -66,15 +67,16 @@ clf = clfs[clf_name]
 
 param_grid = {
     'criterion': ['gini'],
-    'n_estimators': range(10, 71, 10)
+    'n_estimators': range(10, 71, 10),
+    'max_depth': range(5, 10),
+    'class_weight': ['balanced', None]
 }
 
-grid = GridSearchCV(clf, param_grid, scoring='f1_micro')
+grid = GridSearchCV(clf, param_grid, scoring='f1')
 grid.fit(x_train, y_train)
 
 print("最优参数：{0}".format(grid.best_params_))
 print("最好的分数{0}".format(grid.best_score_))
-
 
 """=====================================================================================================================
 5 xgboost - 使用网络搜索获得最优的参数
@@ -83,12 +85,13 @@ clf_name = "xgb"
 clf = clfs[clf_name]
 
 param_grid = {
-    'max_depth': [3],
-    'learning_rate': [0.1],
-    'n_estimators': [50, 100, 500]
+    'max_depth': [3, 10, 30, 50],
+    'learning_rate': [0.05, 0.1, 0.16],
+    'n_estimators': [50, 100, 500],
+    "learning_rate": [0.05, 0.1, 0.16]
 }
 
-grid = GridSearchCV(clf, param_grid, scoring='f1_micro')
+grid = GridSearchCV(clf, param_grid, scoring='f1')
 grid.fit(x_train, y_train)
 
 print("最优参数：{0}".format(grid.best_params_))
@@ -102,10 +105,13 @@ clf = clfs[clf_name]
 
 param_grid = {
     'boosting_type': ['gbdt'],
+    "max_depth": [5, 10, 15],
+    "learning_rate": [0.01, 0.05, 0.1],
+    "num_leaves": [30, 90, 120],
     'n_estimators': [100, 200, 250]
 }
 
-grid = GridSearchCV(clf, param_grid, scoring='f1_micro')
+grid = GridSearchCV(clf, param_grid, scoring='f1')
 grid.fit(x_train, y_train)
 
 print("最优参数：{0}".format(grid.best_params_))
