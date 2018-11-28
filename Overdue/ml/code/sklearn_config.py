@@ -27,7 +27,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 status_vali = True
 
 """特征存储的路径"""
-features_path = '{0}/data_train.pkl'.format(PATH)
+features_path = '{0}/data_train_iv_rf.pkl'.format(PATH)
 
 """修改base_clf改变集成学习的基分类器"""
 

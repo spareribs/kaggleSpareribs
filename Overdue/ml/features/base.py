@@ -133,6 +133,6 @@ print(x_train)
 5. 将处理后的结果保存
 """
 data = (x_train, y_train)
-f_data = open('{0}/data_train.pkl'.format(PATH), 'wb')
+f_data = open('{0}/data_train_no_standardScaler.pkl'.format(PATH), 'wb')
 pickle.dump(data, f_data)
 f_data.close()

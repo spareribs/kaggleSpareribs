@@ -25,6 +25,10 @@ data_fp.close()
 # if status_vali:
 #     x_train, x_vali, y_train, y_vali = train_test_split(x_train, y_train, test_size=0.3, random_state=0)
 
+# x_train = x_train.reset_index(drop=True)
+# x_vali = x_vali.reset_index(drop=True)
+y_train = y_train.reset_index(drop=True)
+# y_vali = y_vali.reset_index(drop=True)
 """=====================================================================================================================
 2 模型融合；
 学习参考:https://blog.csdn.net/LAW_130625/article/details/78573736
